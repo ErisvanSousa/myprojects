@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+}
+
+header {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menu {
+        a {
+            font-weight: bold; 
+            margin: 0 1rem;
+        }
+    }
+    
+    .socialMedia {
+        img {
+            width: 48px;
+        }
+    }
+}

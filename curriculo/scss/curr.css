@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: grid;
+  margin: 1rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1{
+  color: #1c1c1c;
+  font-family: 'Dongle', sans-serif;
+  font-size: 4rem;
+}
+
+header .menu a {
+  font-weight: bold;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+
+header .socialMedia img {
+  width: 2rem;
+  padding: 0.2rem;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: auto 50%;
+  place-items: center;
+  justify-content: space-around;
+  justify-items: left;
+  margin-top: 10%;
+}
+
+.img{
+  grid-row: 1/3;
+}
+
+.img #img{
+  height: 20rem;
+  width: 20rem;
+  padding-left: 45%;
+  border-radius: 0.5rem;
+}
+
+#text{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:justify;
+  max-width: 70%;
+  padding: 1rem;
+}
+
+#text h1{
+  font-size: 2rem;
+}
+
+#text p{
+  padding-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.but a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.but #but1{
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  background-color: black;
+  position: relative;
+  cursor: pointer;
+  border-color: black;
+  border-radius: 0.5rem;
+  color: #dedede;
+  margin: 1rem;
+}
+.but #but2{
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  border-color: black;
+  border-radius: 0.5rem;
+  color: black;
+}
+
+.work{
+  display: grid;
+  align-content: center;
+  place-items: center;
+  padding-top: 5rem;
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  font-size: medium;
+  color: red;
+}
+
+/*# sourceMappingURL=curr.css.map */
